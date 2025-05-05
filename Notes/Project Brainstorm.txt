@@ -1,0 +1,14 @@
+SF Fire Project Outline
+
+
+Data Sources
+
+1. SF Open Data API 
+	: 311 calls (fire dept.)
+	
+	csv download link: https://data.sfgov.org/api/views/wr8u-xric/rows.csv?fourfour=wr8u-xric&cacheBust=1746351254&date=20250504&accessType=DOWNLOAD
+	
+2. AQI API 
+	: AQI within Bay Area 
+	
+	
