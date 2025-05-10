@@ -1,0 +1,51 @@
+Database Creation workflow
+
+* in a real-world situation, there will be different database environments. Since we're starting from scratch, we have the 
+perfect oppurtunity to mirror how orgs structure their db servers.
+
+Types:
+
+	dev - here is where you build and test connections/schema
+	test - create the schemas that will be used in prod and validate everything here 
+	prod - for production ready tables 
+	
+* Isolating envs. has multiple benefits
+
+	1. Prevents test data from affecting end-users
+	2. Lets you use the test as a disaster backup/rollback strategy 
+	3. Lets you simulate prod behavior safely 
+	4. Helps detect issues before going live 
+	
+Steps for creating db server envs.
+
+	1. Build and test on dev env 
+	2. Push code to git/staging env 
+	3. Migrate schema and data to test 
+	4. Run final QA 
+	5. Promote to prod 
+	
+* Large orgs have multiple servers for the same project; let's mimic this by creating 
+a server for each purpose within the development cycle 
+	
+	1. Makes for easier auditing 
+	2. Safe isolation of code and data by lifecycle stage 
+	3. Supports CI/CD, migration tools, and ETL 
+	
+	
+We'll start with the development server 
+	
+	Purpose - experimentation, testing local features, and QA automation 
+	Access - developers only 
+	Databases:
+		sf_fire_dev: Daily development and testing 
+		sf_fire_qa: Manual/automated QA 
+		(optional) sf_fire_ci: Continuous integration DB if using automated test runners 
+		
+		
+Datasets
+
+	1. Fire incidents and 911 calls 
+		: the initial load should be historical, but after that, only grab trailing three weeks.
+		
+	2. Census from Open Data 
+		: use zcta to join onto dimNeighborhood zip code 
