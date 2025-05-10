@@ -49,3 +49,7 @@ Datasets
 		
 	2. Census from Open Data 
 		: use zcta to join onto dimNeighborhood zip code 
+	
+	3. API's 
+		: to loop through the API's, first create a dim table and use python to connect to the table and loop 
+		through the zip codes or geo locations 
