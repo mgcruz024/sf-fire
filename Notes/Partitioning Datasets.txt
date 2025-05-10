@@ -1,0 +1,7 @@
+Partitioning Datasets 
+
+
+Open SF - the data we're grabbing contains lots of columns. Find a way to partition for clarity and easier 
+consumption for analysts.
+
+	1. Fire Incidents 	`
