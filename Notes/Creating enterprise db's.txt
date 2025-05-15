@@ -53,3 +53,10 @@ Datasets
 	3. API's 
 		: to loop through the API's, first create a dim table and use python to connect to the table and loop 
 		through the zip codes or geo locations 
+	4. Date
+		: create a dimDate from scratch using SQL 
+		
+		
+Creating an API 
+
+	1. Have an endpoint for historical refreshes 
