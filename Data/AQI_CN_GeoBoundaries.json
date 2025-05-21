@@ -1,0 +1,165 @@
+{
+    "status": "ok",
+    "data": [
+        {
+            "lat": 37.725156,
+            "lon": -122.394156,
+            "uid": -526819,
+            "aqi": "26",
+            "station": {
+                "name": "Carroll Ave. & 3rd St. (BC)",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.769559,
+            "lon": -122.406857,
+            "uid": -525913,
+            "aqi": "29",
+            "station": {
+                "name": "9th St. and Brannan St. (BC)",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.7619754,
+            "lon": -122.3910637,
+            "uid": -399232,
+            "aqi": "25",
+            "station": {
+                "name": "UCSF Mission Bay",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.77947,
+            "lon": -122.407921,
+            "uid": -525955,
+            "aqi": "28",
+            "station": {
+                "name": "Howard St. & 6th St. (BC)",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.76475370673163,
+            "lon": -122.4976418648999,
+            "uid": -507787,
+            "aqi": "13",
+            "station": {
+                "name": "Emperor Norden",
+                "time": "2025-05-20T05:09:24Z"
+            }
+        },
+        {
+            "lat": 37.794292,
+            "lon": -122.404098,
+            "uid": -525952,
+            "aqi": "25",
+            "station": {
+                "name": "Clay St. & Kearny St. (BC)",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.728871,
+            "lon": -122.374401,
+            "uid": -525961,
+            "aqi": "27",
+            "station": {
+                "name": "Kirkwood Ave. & Earl St. (BC)",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.7661,
+            "lon": -122.398971,
+            "uid": -528031,
+            "aqi": "28",
+            "station": {
+                "name": "Air District Reference Site (BC)",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.7198873,
+            "lon": -122.3845849,
+            "uid": -413371,
+            "aqi": "19",
+            "station": {
+                "name": "Berkeley-ATB2",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.783781,
+            "lon": -122.411561,
+            "uid": -525964,
+            "aqi": "32",
+            "station": {
+                "name": "Eddy St. & Jones St. (BC)",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.782098,
+            "lon": -122.415329,
+            "uid": -525958,
+            "aqi": "31",
+            "station": {
+                "name": "Hyde St. & Golden Gate Ave. (BC)",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.7262111,
+            "lon": -122.3757414,
+            "uid": -398743,
+            "aqi": "29",
+            "station": {
+                "name": "UCSF Hunter’s Point",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.784978,
+            "lon": -122.439504,
+            "uid": -399343,
+            "aqi": "25",
+            "station": {
+                "name": "UCSF Mount Zion",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.7617512,
+            "lon": -122.4589649,
+            "uid": -398923,
+            "aqi": "24",
+            "station": {
+                "name": "UCSF Parnassus",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },
+        {
+            "lat": 37.734787,
+            "lon": -122.389569,
+            "uid": -529507,
+            "aqi": "30",
+            "station": {
+                "name": "Oakdale Ave. & 3rd St. (BC)",
+                "time": "2025-05-20T04:00:00Z"
+            }
+        },	
+        {
+            "lat": 37.76595,
+            "lon": -122.39902,
+            "uid": 3900,
+            "aqi": "15",
+            "station": {
+                "name": "San Francisco-Arkansas Street, San Francisco, California",
+                "time": "2025-05-20T13:00:00+09:00"
+            }
+        }		
+    ]
+}
